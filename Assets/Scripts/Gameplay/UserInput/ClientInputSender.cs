@@ -520,16 +520,16 @@ namespace Unity.BossRoom.Gameplay.UserInput
                 //IsPointerOverGameObject() is a simple way to determine if the mouse is over a UI element. If it is, we don't perform mouse input logic,
                 //to model the button "blocking" mouse clicks from falling through and interacting with the world.
 
-                if (Input.GetMouseButtonDown(1))
+                if (Input.GetMouseButtonDown(0))
                 {
                     RequestAction(CharacterClass.Skill1.ActionID, SkillTriggerStyle.MouseClick);
                 }
 
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(1))
                 {
                     RequestAction(GameDataSource.Instance.GeneralTargetActionPrototype.ActionID, SkillTriggerStyle.MouseClick);
                 }
-                else if (Input.GetMouseButton(0))
+                else if (Input.GetMouseButton(1))
                 {
                     m_MoveRequest = true;
                 }
