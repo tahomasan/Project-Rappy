@@ -61,7 +61,7 @@ namespace Unity.BossRoom.Audio
 
             if (Instance != null)
             {
-                throw new System.Exception("Multiple ClientMuscPlayers!");
+                throw new System.Exception("Multiple ClientMusicPlayers!");
             }
             DontDestroyOnLoad(gameObject);
             Instance = this;

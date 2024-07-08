@@ -12,10 +12,15 @@ namespace Unity.BossRoom.Gameplay.GameplayObjects.Audio
         // set whether theme should restart if already playing
         [SerializeField]
         bool m_Restart;
+        [SerializeField]
+        bool m_PlayOnLaunch;
 
         void Start()
         {
-            ClientMusicPlayer.Instance.PlayThemeMusic(m_Restart);
+            if (m_PlayOnLaunch)
+            {
+                ClientMusicPlayer.Instance.PlayThemeMusic(m_Restart);
+            }
         }
     }
 }
