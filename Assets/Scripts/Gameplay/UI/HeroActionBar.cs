@@ -204,7 +204,7 @@ namespace Unity.BossRoom.Gameplay.UI
 
         void Update()
         {
-            if (Input.GetKeyUp(KeyCode.Alpha4))
+            if (Input.GetKeyUp(KeyCode.R))
             {
                 m_ButtonInfo[ActionButtonType.EmoteBar].Button.OnPointerUpEvent.Invoke();
             }

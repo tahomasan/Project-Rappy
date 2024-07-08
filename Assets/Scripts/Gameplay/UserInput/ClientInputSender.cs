@@ -473,44 +473,44 @@ namespace Unity.BossRoom.Gameplay.UserInput
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1) && CharacterClass.Skill1)
+            if (Input.GetKeyDown(KeyCode.Q) && CharacterClass.Skill1)
             {
                 RequestAction(actionState1.actionID, SkillTriggerStyle.Keyboard);
             }
-            else if (Input.GetKeyUp(KeyCode.Alpha1) && CharacterClass.Skill1)
+            else if (Input.GetKeyUp(KeyCode.Q) && CharacterClass.Skill1)
             {
                 RequestAction(actionState1.actionID, SkillTriggerStyle.KeyboardRelease);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha2) && CharacterClass.Skill2)
+            if (Input.GetKeyDown(KeyCode.W) && CharacterClass.Skill2)
             {
                 RequestAction(actionState2.actionID, SkillTriggerStyle.Keyboard);
             }
-            else if (Input.GetKeyUp(KeyCode.Alpha2) && CharacterClass.Skill2)
+            else if (Input.GetKeyUp(KeyCode.W) && CharacterClass.Skill2)
             {
                 RequestAction(actionState2.actionID, SkillTriggerStyle.KeyboardRelease);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha3) && CharacterClass.Skill3)
+            if (Input.GetKeyDown(KeyCode.E) && CharacterClass.Skill3)
             {
                 RequestAction(actionState3.actionID, SkillTriggerStyle.Keyboard);
             }
-            else if (Input.GetKeyUp(KeyCode.Alpha3) && CharacterClass.Skill3)
+            else if (Input.GetKeyUp(KeyCode.E) && CharacterClass.Skill3)
             {
                 RequestAction(actionState3.actionID, SkillTriggerStyle.KeyboardRelease);
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha5))
+            if (Input.GetKeyDown(KeyCode.F1))
             {
                 RequestAction(GameDataSource.Instance.Emote1ActionPrototype.ActionID, SkillTriggerStyle.Keyboard);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha6))
+            if (Input.GetKeyDown(KeyCode.F2))
             {
                 RequestAction(GameDataSource.Instance.Emote2ActionPrototype.ActionID, SkillTriggerStyle.Keyboard);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha7))
+            if (Input.GetKeyDown(KeyCode.F3))
             {
                 RequestAction(GameDataSource.Instance.Emote3ActionPrototype.ActionID, SkillTriggerStyle.Keyboard);
             }
-            if (Input.GetKeyDown(KeyCode.Alpha8))
+            if (Input.GetKeyDown(KeyCode.F4))
             {
                 RequestAction(GameDataSource.Instance.Emote4ActionPrototype.ActionID, SkillTriggerStyle.Keyboard);
             }
