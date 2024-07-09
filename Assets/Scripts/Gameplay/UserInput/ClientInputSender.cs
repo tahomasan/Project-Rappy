@@ -522,7 +522,7 @@ namespace Unity.BossRoom.Gameplay.UserInput
 
                 if (Input.GetMouseButtonDown(0))
                 {
-                    // RequestAction(CharacterClass.Skill1.ActionID, SkillTriggerStyle.MouseClick);
+                    RequestAction(GameDataSource.Instance.GeneralTargetActionPrototype.ActionID, SkillTriggerStyle.MouseClick);
                 }
 
                 if (Input.GetMouseButtonDown(1))
