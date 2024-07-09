@@ -35,7 +35,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.3.1",
+      "version": "2.4.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -423,7 +423,7 @@
       "hash": "bb3d5067e49e403d8b8ba15c036d313b4dd2c696"
     },
     "jp.hadashikick.vcontainer": {
-      "version": "1.16.1",
+      "version": "1.16.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
