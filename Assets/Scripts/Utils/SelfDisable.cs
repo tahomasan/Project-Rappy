@@ -15,7 +15,7 @@ namespace Unity.BossRoom.Utils
         {
             if (Time.time >= m_DisableTimestamp)
             {
-                gameObject.SetActive(false);
+                Destroy(gameObject);
             }
         }
 
