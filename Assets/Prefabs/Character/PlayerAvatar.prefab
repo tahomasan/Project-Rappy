@@ -76,6 +76,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2014321709067566591, guid: 0d2d836e2e83b754fa1a1c4022d6d65d, type: 3}
+      propertyPath: Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2014321709067566591, guid: 0d2d836e2e83b754fa1a1c4022d6d65d, type: 3}
+      propertyPath: SlerpPosition
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -909640835356089789, guid: 0d2d836e2e83b754fa1a1c4022d6d65d, type: 3}
       propertyPath: m_ClientCharacterVisualization
       value: 
@@ -110,7 +118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4600110157238723790, guid: 0d2d836e2e83b754fa1a1c4022d6d65d, type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 3177087589
+      value: 3737985212
       objectReference: {fileID: 0}
     - target: {fileID: 4600110157238723790, guid: 0d2d836e2e83b754fa1a1c4022d6d65d, type: 3}
       propertyPath: PrefabHashGenerator
